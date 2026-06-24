@@ -10,6 +10,7 @@ namespace Restaurante.Core
         //Lista de Pedidos
         private List<Pedido> listaPedidos = new List<Pedido>();
         private double gananciaTotal = 0; //Variable que guarda la ganancia total
+        private int siguienteNumeroPedido = 1; //Evita indices duplicados en los pedidos
         private const string ArchivoNombre = "RegistroVentas.txt"; //Nombre del archivo donde se guardará el registro de ventas 
 
         //
@@ -143,6 +144,11 @@ namespace Restaurante.Core
             {
                 *ptrGanancia = *ptrGanancia - monto;
             }
+        }
+
+        public int ObtenerSiguienteNumeroPedido()
+        {
+            return siguienteNumeroPedido++;
         }
 
         public void AgregarPedido(Pedido p)

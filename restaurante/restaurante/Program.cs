@@ -211,7 +211,7 @@ namespace restaurante
         //REGISTRO CON CANCELACIÓN EN VIVO
         private static void InterfazRegistrarPedido()
         {
-            Pedido p = new Pedido { NumeroPedido = gestor.ListaPedidos.Count + 1 };
+            Pedido p = new Pedido { NumeroPedido = gestor.ObtenerSiguienteNumeroPedido() };
             Console.Clear();
             Console.WriteLine($"--------- REGISTRO PEDIDO #{p.NumeroPedido} -----------");
             Console.ForegroundColor = ConsoleColor.DarkGray;
@@ -461,6 +461,36 @@ namespace restaurante
             } while (!exito || numero < min || numero > max);
             return numero;
         }
+
+        // Método que solicita al usuario un número decimal y valida que esté dentro de un rango
+        private static double LeerDecimal(string mensaje, double min, double max)
+        {
+            double numero; //Almacena el número ingresado
+            bool exito; //Indica si la conversión de texto a número fue exitosa
+            do
+            {//Muestra el mensaje al usuario
+                Console.Write(mensaje);
+
+                //Convertimos la entrada a un num decimal usando el punto como separador decimal
+                exito = double.TryParse(
+                    Console.ReadLine(),
+                    System.Globalization.NumberStyles.Any,
+                    System.Globalization.CultureInfo.InvariantCulture,
+                    out numero
+                );
+
+                //Si la conversión falla o el número está fuera del rango permitido, mostramos error
+                if (!exito || numero < min || numero > max)
+                    Console.WriteLine(
+                        $"Entrada inválida. Ingrese un número entre {min} y {max} (use '.' para decimales)."
+                    );
+
+            } while (!exito || numero < min || numero > max);
+            //Repetimos mientras la entrada sea inválida o esté fuera del rango
+
+            return numero;//retornamos el valor del num valido
+        }
+
 
         private static void Pausar()
         {
