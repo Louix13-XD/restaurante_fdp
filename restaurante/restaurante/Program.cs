@@ -331,7 +331,7 @@ namespace restaurante
 
                     if (opMenu == 6) continue;
 
-                    if (opMenu == 1) gestor.ActualizarPrecioMenu(LeerEntero("Nuevo precio de la Categoría Menú (S/.): ", 1, 100));
+                    if (opMenu == 1) gestor.ActualizarPrecioMenu(LeerDecimal("Nuevo precio de la Categoría Menú (S/.): ", 1, 100));
                     else if (opMenu == 2) gestor.RegistrarEntrada(LeerCadena("Nombre de la entrada: "));
                     else if (opMenu == 3)
                     {
@@ -359,7 +359,7 @@ namespace restaurante
 
                     if (opCarta == 4) continue;
 
-                    if (opCarta == 1) gestor.ActualizarPrecioCarta(LeerEntero("Nuevo precio de la Categoría Carta (S/.): ", 1, 200));
+                    if (opCarta == 1) gestor.ActualizarPrecioCarta(LeerDecimal("Nuevo precio de la Categoría Carta (S/.): ", 1, 200));
                     else if (opCarta == 2) gestor.RegistrarPlatoCarta(LeerCadena("Nombre del plato: "));
                     else if (opCarta == 3)
                     {
@@ -380,13 +380,13 @@ namespace restaurante
 
                     if (opBebida == 4) continue;
 
-                    if (opBebida == 1) gestor.RegistrarBebida(LeerCadena("Nombre de la bebida: "), LeerEntero("Precio (S/.): ", 1, 50));
+                    if (opBebida == 1) gestor.RegistrarBebida(LeerCadena("Nombre de la bebida: "), LeerDecimal("Precio (S/.): ", 1, 50));
                     else if (opBebida == 2)
                     {
                         if (Bebida.Nombres.Count == 0) { Console.WriteLine("No hay bebidas registradas."); Console.ReadKey(); continue; }
                         for (int i = 0; i < Bebida.Nombres.Count; i++) Console.WriteLine($"{i + 1}. {Bebida.Nombres[i]} - S/.{Bebida.Precios[i]:0.00}");
                         int idx = LeerEntero("Bebida a modificar: ", 1, Bebida.Nombres.Count) - 1;
-                        gestor.ModificarBebida(idx, LeerCadena("Nuevo nombre: "), LeerEntero("Nuevo precio (S/.): ", 1, 50));
+                        gestor.ModificarBebida(idx, LeerCadena("Nuevo nombre: "), LeerDecimal("Nuevo precio (S/.): ", 1, 50));
                     }
                     else if (opBebida == 3)
                     {
