@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Restaurante.Core
 {
@@ -10,19 +7,21 @@ namespace Restaurante.Core
     {
         public string NombrePlato { get; set; }
 
-        public static string[] Platos =
-            { "Lomo Saltado", "Churrazco", "Chuleta",
-              "Milanesa", "Ceviche Mixto", "Chicharrón Pescado" };
+        // Lista dinámica de platos a la carta
+        public static List<string> Platos { get; set; } = new List<string> { "Lomo Saltado", "Churrazco", "Chuleta", "Milanesa", "Ceviche Mixto", "Chicharrón Pescado" };
 
-        public PlatoACarta(string nombrePlato) // Constructor
+        // Precio fijo para toda la categoría de platos A la Carta
+        public static double PrecioCategoriaCarta { get; set; } = 15.0;
+
+        public PlatoACarta(string nombrePlato)
         {
             NombrePlato = nombrePlato;
-            Precio = 15.0;
+            Precio = PrecioCategoriaCarta; // Asigna el precio general de la categoría
         }
 
-        public override string ObtenerDescripcion() // Implementamos el método abstracto de la clase padre
+        public override string ObtenerDescripcion()
         {
-            return "A la Carta (" + NombrePlato + ") - S/" + Precio.ToString("0.00");
+            return "A la Carta (" + NombrePlato + ") - S/" + PrecioCategoriaCarta.ToString("0.00");
         }
     }
 }

@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{3ABC3262-BBB2-BC70-D066-9BB917659120}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|c:\\users\\xd\\desktop\\restaurante\\restaurante\\restaurante.core\\platomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|solutionrelative:restaurante.core\\platomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|c:\\users\\xd\\desktop\\restaurante\\restaurante\\restaurante.core\\restaurante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|solutionrelative:restaurante.core\\restaurante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|c:\\users\\xd\\desktop\\restaurante\\restaurante\\restaurante.core\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|solutionrelative:restaurante.core\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|c:\\users\\xd\\desktop\\restaurante\\restaurante\\restaurante.core\\platoacarta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|solutionrelative:restaurante.core\\platoacarta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|c:\\users\\xd\\desktop\\restaurante\\restaurante\\restaurante.core\\plato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|solutionrelative:restaurante.core\\plato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|c:\\users\\xd\\desktop\\restaurante\\restaurante\\restaurante.core\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +25,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|c:\\users\\xd\\desktop\\restaurante\\restaurante\\restaurante.core\\bebida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|solutionrelative:restaurante.core\\bebida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|c:\\users\\xd\\desktop\\restaurante\\restaurante\\restaurante.core\\platomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|solutionrelative:restaurante.core\\platomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|c:\\users\\xd\\desktop\\restaurante\\restaurante\\restaurante.core\\plato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|solutionrelative:restaurante.core\\plato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +42,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\Usuario.cs",
+              "RelativeDocumentMoniker": "Restaurante.Core\\Usuario.cs",
+              "ToolTip": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\Usuario.cs",
+              "RelativeToolTip": "Restaurante.Core\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T04:21:40.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Restaurante.cs",
+              "DocumentMoniker": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\Restaurante.cs",
+              "RelativeDocumentMoniker": "Restaurante.Core\\Restaurante.cs",
+              "ToolTip": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\Restaurante.cs",
+              "RelativeToolTip": "Restaurante.Core\\Restaurante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T02:58:49.596Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -44,10 +76,9 @@
               "RelativeDocumentMoniker": "Restaurante.Core\\Bebida.cs",
               "ToolTip": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\Bebida.cs",
               "RelativeToolTip": "Restaurante.Core\\Bebida.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T00:34:10.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T00:34:10.43Z"
             },
             {
               "$type": "Document",
@@ -57,49 +88,45 @@
               "RelativeDocumentMoniker": "Restaurante.Core\\Pedido.cs",
               "ToolTip": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\Pedido.cs",
               "RelativeToolTip": "Restaurante.Core\\Pedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T00:33:38.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T00:33:38.803Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Plato.cs",
               "DocumentMoniker": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\Plato.cs",
               "RelativeDocumentMoniker": "Restaurante.Core\\Plato.cs",
               "ToolTip": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\Plato.cs",
               "RelativeToolTip": "Restaurante.Core\\Plato.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T00:33:15.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T00:33:15.401Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlatoACarta.cs",
               "DocumentMoniker": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\PlatoACarta.cs",
               "RelativeDocumentMoniker": "Restaurante.Core\\PlatoACarta.cs",
               "ToolTip": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\PlatoACarta.cs",
               "RelativeToolTip": "Restaurante.Core\\PlatoACarta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T00:32:55.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T00:32:55.454Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "PlatoMenu.cs",
               "DocumentMoniker": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\PlatoMenu.cs",
               "RelativeDocumentMoniker": "Restaurante.Core\\PlatoMenu.cs",
               "ToolTip": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\PlatoMenu.cs",
               "RelativeToolTip": "Restaurante.Core\\PlatoMenu.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T00:32:24.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T00:32:24.97Z"
             },
             {
               "$type": "Document",
@@ -109,7 +136,7 @@
               "RelativeDocumentMoniker": "restaurante\\Program.cs",
               "ToolTip": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\restaurante\\Program.cs",
               "RelativeToolTip": "restaurante\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCUAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAN4BAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-28T04:01:07.076Z",
               "EditorCaption": ""

@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Restaurante.Core
 {
@@ -11,10 +8,11 @@ namespace Restaurante.Core
         public string Nombre { get; set; }
         public double Precio { get; set; }
 
-        public static string[] Nombres = { "Agua", "Gaseosa", "Refresco" };
-        public static double[] Precios = { 2.0, 4.0, 3.0 };
+        // Listas dinámicas paralelas iniciales
+        public static List<string> Nombres { get; set; } = new List<string> { "Agua", "Gaseosa", "Refresco" };
+        public static List<double> Precios { get; set; } = new List<double> { 2.0, 4.0, 3.0 };
 
-        public Bebida(string nombre, double precio) // Constructor
+        public Bebida(string nombre, double precio)
         {
             Nombre = nombre;
             Precio = precio;

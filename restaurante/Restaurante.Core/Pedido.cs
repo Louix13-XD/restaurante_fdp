@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Restaurante.Core
 {
@@ -10,10 +7,11 @@ namespace Restaurante.Core
     {
         public int NumeroPedido { get; set; }
         public string Cliente { get; set; }
-        public List<Plato> Platos { get; set; } = new List<Plato>(); // Lista de platos generales (menú o a la carta)
-        public List<Bebida> Bebidas { get; set; } = new List<Bebida>(); // Lista de bebidas
+        public List<Plato> Platos { get; set; } = new List<Plato>();
+        public List<Bebida> Bebidas { get; set; } = new List<Bebida>();
+        public string MetodoPago { get; set; }
 
-        public double Total() // Sumamos el total de platos y bebidas por pedido
+        public double Total()
         {
             double totalPlatos = 0;
             double totalBebidas = 0;
@@ -26,6 +24,5 @@ namespace Restaurante.Core
 
             return totalPlatos + totalBebidas;
         }
-        public string MetodoPago { get; set; }
     }
 }
