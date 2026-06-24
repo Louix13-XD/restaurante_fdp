@@ -8,6 +8,7 @@ namespace Restaurante.Core
 {
     public abstract class Plato // Superclase abstracta
     {
+        //Atributos
         public double Precio { get; protected set; }
         public abstract string ObtenerDescripcion();
     }

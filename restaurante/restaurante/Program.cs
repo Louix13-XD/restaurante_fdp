@@ -14,21 +14,15 @@ namespace restaurante
             gestor.CargarDatosConfiguracion();
 
             if (gestor.ListaUsuarios.Count == 0)
-            {
                 gestor.RegistrarUsuario("admin", "1234", "Administrador");
-            }
 
             bool ejecucionSistema = true;
             while (ejecucionSistema)
             {
                 if (InterfazLogin())
-                {
                     MostrarMenuPrincipal();
-                }
                 else
-                {
                     ejecucionSistema = false;
-                }
             }
 
             Console.Clear();
@@ -189,9 +183,7 @@ namespace restaurante
                 Console.ResetColor();
             }
             else
-            {
                 Console.WriteLine("\nOperación abortada. El pedido sigue intacto.");
-            }
         }
 
         private static void InterfazCrearUsuario()
@@ -216,7 +208,7 @@ namespace restaurante
             Console.ResetColor();
         }
 
-        // ==================== REGISTRO CON CANCELACIÓN EN VIVO ====================
+        //REGISTRO CON CANCELACIÓN EN VIVO
         private static void InterfazRegistrarPedido()
         {
             Pedido p = new Pedido { NumeroPedido = gestor.ListaPedidos.Count + 1 };
@@ -297,7 +289,7 @@ namespace restaurante
 
             p.MetodoPago = pago == 1 ? "Yape" : (pago == 2 ? "Efectivo" : "Plin");
 
-            // Solo si pasa todos los pasos ileso, se guarda y procesa
+            // Solo si pasa todos los pasos ilesos, se guarda y procesa
             gestor.AgregarPedido(p);
             ImprimirBoleta(p);
         }

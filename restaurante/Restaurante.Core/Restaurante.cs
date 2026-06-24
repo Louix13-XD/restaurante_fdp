@@ -7,37 +7,47 @@ namespace Restaurante.Core
 {
     public class GestorRestaurante
     {
+        //Lista de Pedidos
         private List<Pedido> listaPedidos = new List<Pedido>();
-        private double gananciaTotal = 0;
-        private const string ArchivoNombre = "RegistroVentas.txt";
+        private double gananciaTotal = 0; //Variable que guarda la ganancia total
+        private const string ArchivoNombre = "RegistroVentas.txt"; //Nombre del archivo donde se guardará el registro de ventas 
 
+        //
         public List<Pedido> ListaPedidos => listaPedidos;
         public double GananciaTotal => gananciaTotal;
+
+        //Lista de usuarios
         public List<Usuario> ListaUsuarios { get; set; } = new List<Usuario>();
 
-        // ==================== REGISTRO DE USUARIOS INTERACTIVO ====================
+
+        //REGISTRO DE USUARIOS
         public void RegistrarUsuario(string username, string password, string rol)
         {
+            //Verificamos que el usuario no exista
             if (!ListaUsuarios.Exists(u => u.Username.ToLower() == username.ToLower()))
             {
+                //Guardamos el usuario en la lista
                 ListaUsuarios.Add(new Usuario(username, password, rol));
                 GuardarUsuariosTxt();
             }
         }
 
-        // ==================== SINCRO CARGA DE ARCHIVOS AUTOMÁTICA ====================
+        //SINCRO CARGA DE ARCHIVOS AUTOMÁTICA 
         public void CargarDatosConfiguracion()
         {
             try
             {
+                //Si el archivo ya existe
                 if (File.Exists("PlatosMenu.txt"))
                 {
+                    //Guardamos las lineas en un array
                     string[] lineas = File.ReadAllLines("PlatosMenu.txt");
-                    if (lineas.Length >= 3)
+                    if (lineas.Length >= 3)//si las lineas son mayor a 3
                     {
+                        //Guardamos en nuevas listas
                         PlatoMenu.Entradas = new List<string>(lineas[0].Split(','));
                         PlatoMenu.Segundos = new List<string>(lineas[1].Split(','));
-                        PlatoMenu.PrecioCategoriaMenu = double.Parse(lineas[2]);
+                        PlatoMenu.PrecioCategoriaMenu = double.Parse(lineas[2]);//convertimos string a double
                     }
                 }
 
@@ -74,7 +84,7 @@ namespace Restaurante.Core
             catch { /* Usar valores iniciales si no existen los archivos */ }
         }
 
-        // ==================== MÉTODOS CRUD AUTOMÁTICOS DE FONDO ====================
+        //MÉTODOS CRUD AUTOMÁTICOS
         public void ActualizarPrecioMenu(double np) { PlatoMenu.PrecioCategoriaMenu = np; GuardarMenuTxt(); }
         public void ActualizarPrecioCarta(double np) { PlatoACarta.PrecioCategoriaCarta = np; GuardarCartaTxt(); }
 
@@ -90,7 +100,7 @@ namespace Restaurante.Core
         public void ModificarBebida(int idx, string n, double p) { Bebida.Nombres[idx] = n; Bebida.Precios[idx] = p; GuardarBebidasTxt(); }
         public void RetirarBebida(int idx) { Bebida.Nombres.RemoveAt(idx); Bebida.Precios.RemoveAt(idx); GuardarBebidasTxt(); }
 
-        // ==================== SINCRONIZADORES OCULTOS (.TXT) ====================
+        //SINCRONIZADORES OCULTOS (.TXT)
         private void GuardarMenuTxt()
         {
             string e = string.Join(",", PlatoMenu.Entradas);
@@ -118,7 +128,7 @@ namespace Restaurante.Core
             File.WriteAllLines("Usuarios.txt", l);
         }
 
-        // ==================== CÓDIGO INSERCIÓN Y PUNTEROS ORIGINAL ====================
+        //CÓDIGO INSERCIÓN Y PUNTEROS ORIGINAL
         public unsafe void AcumularGananciaConPuntero(double monto)
         {
             fixed (double* ptrGanancia = &gananciaTotal)

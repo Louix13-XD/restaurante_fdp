@@ -5,12 +5,15 @@ namespace Restaurante.Core
 {
     public class Pedido
     {
+        //Atributos
         public int NumeroPedido { get; set; }
         public string Cliente { get; set; }
+        //Listas de platos y bebidas
         public List<Plato> Platos { get; set; } = new List<Plato>();
         public List<Bebida> Bebidas { get; set; } = new List<Bebida>();
         public string MetodoPago { get; set; }
 
+        //Funcion que calcula el monto total de pedidos (precios de bebidas u platos)
         public double Total()
         {
             double totalPlatos = 0;
