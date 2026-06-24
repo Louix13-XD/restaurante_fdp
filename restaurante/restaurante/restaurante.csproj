@@ -8,4 +8,8 @@
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Restaurante.Core\Restaurante.Core.csproj" />
+  </ItemGroup>
+
 </Project>

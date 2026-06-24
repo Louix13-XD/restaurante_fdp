@@ -1,34 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\XD\\Downloads\\restaurante\\restaurante\\",
+  "WorkspaceRootPath": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3ABC3262-BBB2-BC70-D066-9BB917659120}|restaurante\\restaurante.csproj|c:\\users\\xd\\downloads\\restaurante\\restaurante\\restaurante\\restaurante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ABC3262-BBB2-BC70-D066-9BB917659120}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\restaurante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ABC3262-BBB2-BC70-D066-9BB917659120}|restaurante\\restaurante.csproj|c:\\users\\xd\\downloads\\restaurante\\restaurante\\restaurante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3ABC3262-BBB2-BC70-D066-9BB917659120}|restaurante\\restaurante.csproj|c:\\users\\xd\\desktop\\restaurante\\restaurante\\restaurante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3ABC3262-BBB2-BC70-D066-9BB917659120}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3ABC3262-BBB2-BC70-D066-9BB917659120}|restaurante\\restaurante.csproj|c:\\users\\xd\\downloads\\restaurante\\restaurante\\restaurante\\platomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ABC3262-BBB2-BC70-D066-9BB917659120}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\platomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|c:\\users\\xd\\desktop\\restaurante\\restaurante\\restaurante.core\\platomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|solutionrelative:restaurante.core\\platomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3ABC3262-BBB2-BC70-D066-9BB917659120}|restaurante\\restaurante.csproj|c:\\users\\xd\\downloads\\restaurante\\restaurante\\restaurante\\platoacarta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ABC3262-BBB2-BC70-D066-9BB917659120}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\platoacarta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|c:\\users\\xd\\desktop\\restaurante\\restaurante\\restaurante.core\\platoacarta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|solutionrelative:restaurante.core\\platoacarta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3ABC3262-BBB2-BC70-D066-9BB917659120}|restaurante\\restaurante.csproj|c:\\users\\xd\\downloads\\restaurante\\restaurante\\restaurante\\plato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ABC3262-BBB2-BC70-D066-9BB917659120}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\plato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|c:\\users\\xd\\desktop\\restaurante\\restaurante\\restaurante.core\\plato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|solutionrelative:restaurante.core\\plato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3ABC3262-BBB2-BC70-D066-9BB917659120}|restaurante\\restaurante.csproj|c:\\users\\xd\\downloads\\restaurante\\restaurante\\restaurante\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ABC3262-BBB2-BC70-D066-9BB917659120}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|c:\\users\\xd\\desktop\\restaurante\\restaurante\\restaurante.core\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|solutionrelative:restaurante.core\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3ABC3262-BBB2-BC70-D066-9BB917659120}|restaurante\\restaurante.csproj|c:\\users\\xd\\downloads\\restaurante\\restaurante\\restaurante\\bebida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ABC3262-BBB2-BC70-D066-9BB917659120}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\bebida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|c:\\users\\xd\\desktop\\restaurante\\restaurante\\restaurante.core\\bebida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21F7E3AF-BB8B-4A29-B66E-DAD48B2942F1}|Restaurante.Core\\Restaurante.Core.csproj|solutionrelative:restaurante.core\\bebida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\XD\\Downloads\\restaurante\\restaurante\\restaurante\\Program.cs",
-              "RelativeDocumentMoniker": "restaurante\\Program.cs",
-              "ToolTip": "C:\\Users\\XD\\Downloads\\restaurante\\restaurante\\restaurante\\Program.cs",
-              "RelativeToolTip": "restaurante\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Bebida.cs",
+              "DocumentMoniker": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\Bebida.cs",
+              "RelativeDocumentMoniker": "Restaurante.Core\\Bebida.cs",
+              "ToolTip": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\Bebida.cs",
+              "RelativeToolTip": "Restaurante.Core\\Bebida.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T04:01:07.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Restaurante.cs",
-              "DocumentMoniker": "C:\\Users\\XD\\Downloads\\restaurante\\restaurante\\restaurante\\Restaurante.cs",
-              "RelativeDocumentMoniker": "restaurante\\Restaurante.cs",
-              "ToolTip": "C:\\Users\\XD\\Downloads\\restaurante\\restaurante\\restaurante\\Restaurante.cs",
-              "RelativeToolTip": "restaurante\\Restaurante.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T04:01:07.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlatoMenu.cs",
-              "DocumentMoniker": "C:\\Users\\XD\\Downloads\\restaurante\\restaurante\\restaurante\\PlatoMenu.cs",
-              "RelativeDocumentMoniker": "restaurante\\PlatoMenu.cs",
-              "ToolTip": "C:\\Users\\XD\\Downloads\\restaurante\\restaurante\\restaurante\\PlatoMenu.cs",
-              "RelativeToolTip": "restaurante\\PlatoMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T04:01:06.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlatoACarta.cs",
-              "DocumentMoniker": "C:\\Users\\XD\\Downloads\\restaurante\\restaurante\\restaurante\\PlatoACarta.cs",
-              "RelativeDocumentMoniker": "restaurante\\PlatoACarta.cs",
-              "ToolTip": "C:\\Users\\XD\\Downloads\\restaurante\\restaurante\\restaurante\\PlatoACarta.cs",
-              "RelativeToolTip": "restaurante\\PlatoACarta.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAADgvxkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T04:01:05.766Z",
+              "WhenOpened": "2026-06-24T00:34:10.43Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Plato.cs",
-              "DocumentMoniker": "C:\\Users\\XD\\Downloads\\restaurante\\restaurante\\restaurante\\Plato.cs",
-              "RelativeDocumentMoniker": "restaurante\\Plato.cs",
-              "ToolTip": "C:\\Users\\XD\\Downloads\\restaurante\\restaurante\\restaurante\\Plato.cs",
-              "RelativeToolTip": "restaurante\\Plato.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T04:01:05.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\XD\\Downloads\\restaurante\\restaurante\\restaurante\\Pedido.cs",
-              "RelativeDocumentMoniker": "restaurante\\Pedido.cs",
-              "ToolTip": "C:\\Users\\XD\\Downloads\\restaurante\\restaurante\\restaurante\\Pedido.cs",
-              "RelativeToolTip": "restaurante\\Pedido.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAiwAYAAAAEAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\Pedido.cs",
+              "RelativeDocumentMoniker": "Restaurante.Core\\Pedido.cs",
+              "ToolTip": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\Pedido.cs",
+              "RelativeToolTip": "Restaurante.Core\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T04:01:04.208Z",
+              "WhenOpened": "2026-06-24T00:33:38.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Bebida.cs",
-              "DocumentMoniker": "C:\\Users\\XD\\Downloads\\restaurante\\restaurante\\restaurante\\Bebida.cs",
-              "RelativeDocumentMoniker": "restaurante\\Bebida.cs",
-              "ToolTip": "C:\\Users\\XD\\Downloads\\restaurante\\restaurante\\restaurante\\Bebida.cs",
-              "RelativeToolTip": "restaurante\\Bebida.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Plato.cs",
+              "DocumentMoniker": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\Plato.cs",
+              "RelativeDocumentMoniker": "Restaurante.Core\\Plato.cs",
+              "ToolTip": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\Plato.cs",
+              "RelativeToolTip": "Restaurante.Core\\Plato.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T04:01:01.103Z",
+              "WhenOpened": "2026-06-24T00:33:15.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlatoACarta.cs",
+              "DocumentMoniker": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\PlatoACarta.cs",
+              "RelativeDocumentMoniker": "Restaurante.Core\\PlatoACarta.cs",
+              "ToolTip": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\PlatoACarta.cs",
+              "RelativeToolTip": "Restaurante.Core\\PlatoACarta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T00:32:55.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlatoMenu.cs",
+              "DocumentMoniker": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\PlatoMenu.cs",
+              "RelativeDocumentMoniker": "Restaurante.Core\\PlatoMenu.cs",
+              "ToolTip": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\Restaurante.Core\\PlatoMenu.cs",
+              "RelativeToolTip": "Restaurante.Core\\PlatoMenu.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T00:32:24.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\restaurante\\Program.cs",
+              "RelativeDocumentMoniker": "restaurante\\Program.cs",
+              "ToolTip": "C:\\Users\\XD\\Desktop\\restaurante\\restaurante\\restaurante\\Program.cs",
+              "RelativeToolTip": "restaurante\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T04:01:07.076Z",
               "EditorCaption": ""
             }
           ]

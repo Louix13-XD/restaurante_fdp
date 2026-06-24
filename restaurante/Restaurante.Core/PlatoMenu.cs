@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace restaurante
+namespace Restaurante.Core
 {
     public class PlatoMenu : Plato // Subclase que hereda e implementa los métodos de su clase padre
     {
@@ -14,8 +16,8 @@ namespace restaurante
 
         public static string[] Segundos =
             { "Tallarines Rojos", "Tallarines Verdes", "Arroz Verde",
-              "Arroz Cubana", "Menestra con Arroz", "Cabrito",
-              "Aji de Gallina", "Olluco" };
+                  "Arroz Cubana", "Menestra con Arroz", "Cabrito",
+                  "Aji de Gallina", "Olluco" };
 
         public PlatoMenu(string entrada, string segundo) // Constructor
         {
@@ -30,3 +32,4 @@ namespace restaurante
         }
     }
 }
+

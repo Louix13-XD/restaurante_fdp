@@ -1,0 +1,12 @@
+C:\Users\XD\Desktop\restaurante\restaurante\Restaurante.Core\obj\Debug\net9.0\Restaurante.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\XD\Desktop\restaurante\restaurante\Restaurante.Core\obj\Debug\net9.0\Restaurante.Core.AssemblyInfoInputs.cache
+C:\Users\XD\Desktop\restaurante\restaurante\Restaurante.Core\obj\Debug\net9.0\Restaurante.Core.AssemblyInfo.cs
+C:\Users\XD\Desktop\restaurante\restaurante\Restaurante.Core\obj\Debug\net9.0\Restaurante.Core.csproj.CoreCompileInputs.cache
+C:\Users\XD\Desktop\restaurante\restaurante\Restaurante.Core\obj\Debug\net9.0\Restaurante.Core.sourcelink.json
+C:\Users\XD\Desktop\restaurante\restaurante\Restaurante.Core\bin\Debug\net9.0\Restaurante.Core.deps.json
+C:\Users\XD\Desktop\restaurante\restaurante\Restaurante.Core\bin\Debug\net9.0\Restaurante.Core.dll
+C:\Users\XD\Desktop\restaurante\restaurante\Restaurante.Core\bin\Debug\net9.0\Restaurante.Core.pdb
+C:\Users\XD\Desktop\restaurante\restaurante\Restaurante.Core\obj\Debug\net9.0\Restaurante.Core.dll
+C:\Users\XD\Desktop\restaurante\restaurante\Restaurante.Core\obj\Debug\net9.0\refint\Restaurante.Core.dll
+C:\Users\XD\Desktop\restaurante\restaurante\Restaurante.Core\obj\Debug\net9.0\Restaurante.Core.pdb
+C:\Users\XD\Desktop\restaurante\restaurante\Restaurante.Core\obj\Debug\net9.0\ref\Restaurante.Core.dll

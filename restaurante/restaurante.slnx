@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="Restaurante.Core/Restaurante.Core.csproj" Id="21f7e3af-bb8b-4a29-b66e-dad48b2942f1" />
   <Project Path="restaurante/restaurante.csproj" />
 </Solution>
