@@ -238,7 +238,7 @@ git clone httpsgithub.comLouix13-XDrestaurante_fdp.git
 |--------------|
 | Cueva Correa Luis Geanpier |
 | Chavez Soles Alex Eduardo |
-| eldres Mendez Esthefany Melissa |
+| Geldres Mendez Esthefany Melissa |
 | Sare Aranda Alexia Camila |
 | Ugas Cherre Ariana Belen |
 
