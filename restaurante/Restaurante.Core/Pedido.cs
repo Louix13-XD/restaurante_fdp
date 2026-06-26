@@ -3,9 +3,10 @@ using System.Collections.Generic;
 
 namespace Restaurante.Core
 {
+    //Clase que representa un pedido en el restaurante
     public class Pedido
     {
-        //Atributos
+        //Propiedades de la clase Pedido
         public int NumeroPedido { get; set; }
         public string Cliente { get; set; }
         //Listas de platos y bebidas

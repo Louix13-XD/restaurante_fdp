@@ -11,12 +11,17 @@ namespace Restaurante.Core
         public string Segundo { get; set; }
 
         //Creamos listas dinámicas editables
-        public static List<string> Entradas { get; set; } = new List<string> { "Papa Huancaina", "Sopa", "Ceviche" };
-        public static List<string> Segundos { get; set; } = new List<string> { "Tallarines Rojos", "Tallarines Verdes", "Arroz Verde", "Arroz Cubana", "Menestra con Arroz", "Cabrito", "Aji de Gallina", "Olluco" };
+        public static List<string> Entradas { get; set; } 
+            = new List<string> { "Papa Huancaina", "Sopa", "Ceviche" };
+        public static List<string> Segundos { get; set; }
+            = new List<string> { "Tallarines Rojos", "Tallarines Verdes", 
+                "Arroz Verde", "Arroz Cubana", "Menestra con Arroz", 
+                "Cabrito", "Aji de Gallina", "Olluco" };
 
         //Asigamos un precio fijo para toda la categoría Menú
         public static double PrecioCategoriaMenu { get; set; } = 10.0;
 
+        //Constructor
         public PlatoMenu(string entrada, string segundo)
         {
             Entrada = entrada;
@@ -24,6 +29,7 @@ namespace Restaurante.Core
             Precio = PrecioCategoriaMenu; // Asigna el precio general de la categoría
         }
 
+        //Método para obtener la descripción del plato
         public override string ObtenerDescripcion()
         {
             return "Menú (Entrada: " + Entrada + " + " + Segundo + ") - S/" + PrecioCategoriaMenu.ToString("0.00");

@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Restaurante.Core
 {
+    // Clase abstracta Plato que representa un plato en el restaurante
     public abstract class Plato // Superclase abstracta
     {
-        //Atributos
+        //Propiedades de la clase Plato
         public double Precio { get; protected set; }
         public abstract string ObtenerDescripcion();
     }

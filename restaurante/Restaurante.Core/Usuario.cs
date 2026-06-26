@@ -2,9 +2,10 @@
 
 namespace Restaurante.Core
 {
+    //Clase que representa un usuario en el sistema
     public class Usuario
     {
-        //Atributos
+        //Propiedades de la clase Usuario
         public string Username { get; set; }
         public string Password { get; set; }
         public string Rol { get; set; } // "Administrador" o "Trabajador"

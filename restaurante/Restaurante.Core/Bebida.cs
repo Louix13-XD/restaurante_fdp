@@ -3,9 +3,10 @@ using System.Collections.Generic;
 
 namespace Restaurante.Core
 {
+    //Clase Bebida que representa una bebida en el restaurante
     public class Bebida
     {
-        //Atributos 
+        //Propiedades de la clase Bebida
         public string Nombre { get; set; }
         public double Precio { get; set; }
 
@@ -20,7 +21,7 @@ namespace Restaurante.Core
             Precio = precio;
         }
 
-        //Funcion que lista la bebida y su precio
+        //Método que devuelve la descripción de la bebida
         public string ObtenerDescripcion()
         {
             return Nombre + " - S/" + Precio.ToString("0.00");

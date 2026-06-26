@@ -3,14 +3,15 @@ using System.Collections.Generic;
 
 namespace Restaurante.Core
 {
-    //Heredamos de la superclase Plato
+    //Heredamos de la superclase Plato  
     public class PlatoACarta : Plato
     {
-        //Atributos
+        //Propiedades de la clase PlatoACarta
         public string NombrePlato { get; set; }
 
         //Creamos una lista dinámica de platos a la carta
-        public static List<string> Platos { get; set; } = new List<string> { "Lomo Saltado", "Churrazco", "Chuleta", "Milanesa", "Ceviche Mixto", "Chicharrón Pescado" };
+        public static List<string> Platos { get; set; } = 
+            new List<string> { "Lomo Saltado", "Churrazco", "Chuleta", "Milanesa", "Ceviche Mixto", "Chicharrón Pescado" };
 
         //Asigamos un precio fijo para toda la categoría de platos A la Carta
         public static double PrecioCategoriaCarta { get; set; } = 15.0;
